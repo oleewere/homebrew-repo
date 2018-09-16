@@ -1,9 +1,9 @@
 class Ambarictl < Formula
   desc "Software to manage multiple Ambari servers."
   homepage "https://github.com/oleewere"
-  url "https://github.com/oleewere/ambarictl/releases/download/v0.1.0/ambarictl_0.1.0_macOS_64-bit.tar.gz"
-  version "0.1.0"
-  sha256 "5ff1658c00738b99772154f4fb5b475d999591c944a3ee0337f14af5d4787cd0"
+  url "https://github.com/oleewere/ambarictl/releases/download/v0.1.1/ambarictl_0.1.1_macOS_64-bit.tar.gz"
+  version "0.1.1"
+  sha256 "354ef62c5b5cdeadb526e1c96c0ed21623a39eba088bf4b9517120df8275d59c"
 
   def install
     bin.install "ambarictl"
