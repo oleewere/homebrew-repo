@@ -3,7 +3,7 @@ class Ambarictl < Formula
   homepage "https://github.com/oleewere"
   url "https://github.com/oleewere/ambarictl/releases/download/v0.1.0/ambarictl_0.1.0_macOS_64-bit.tar.gz"
   version "0.1.0"
-  sha256 "25e89de27ccc4a761f70faaa6ae70ac58a28d0e91e758d87855340b4d6270f44"
+  sha256 "47365fdd732ddcad65a4b0c694d005dc4a4938f21c611180e2c10b242c7a8833"
 
   def install
     bin.install "ambarictl"
