@@ -3,7 +3,7 @@ class Cmctl < Formula
   homepage "https://github.com/oleewere"
   url "https://github.com/oleewere/cmctl/releases/download/v0.1.0/cmctl_0.1.0_macOS_64-bit.tar.gz"
   version "0.1.0"
-  sha256 "4287758f61d23d0be4e72fffa01fe207981a27355d77322970edeea684d278b6"
+  sha256 "38fc6e5d5e56abf361cc747587e66572b68e38381b88d80a782cd266e54aab25"
 
   def install
     bin.install "cmctl"
