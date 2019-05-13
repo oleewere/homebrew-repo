@@ -1,9 +1,9 @@
 class Cmctl < Formula
   desc "Software to manage multiple Ambari servers."
   homepage "https://github.com/oleewere"
-  url "https://github.com/oleewere/cmctl/releases/download/v0.4.0/cmctl_0.4.0_macOS_64-bit.tar.gz"
-  version "0.4.0"
-  sha256 "a1f6280ffbf742460cfe4673c68ec49b392bfff4231eabe164c5f397ea714e04"
+  url "https://github.com/oleewere/cmctl/releases/download/v0.5.0/cmctl_0.5.0_macOS_64-bit.tar.gz"
+  version "0.5.0"
+  sha256 "5f12fb5cb318b3d24d3ed4f4cb39f617d63103c5d09207fb8d5e0ac3a9d557cd"
 
   def install
     bin.install "cmctl"
