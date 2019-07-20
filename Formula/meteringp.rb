@@ -6,14 +6,14 @@ class Meteringp < Formula
 
   if OS.mac?
     url "https://github.com/oleewere/meteringp/releases/download/v0.1.0/meteringp_0.1.0_macOS_64-bit.tar.gz"
-    sha256 "b1fedc22b389271a810d41cf02b406ef8f887da446b801a457858f6fbf3387da"
+    sha256 "bb3375adb7c4e58a8da3c5b7b918dce3f7ebb4d586a03a42d902b22f6962b0e5"
   elsif OS.linux?
     url "https://github.com/oleewere/meteringp/releases/download/v0.1.0/meteringp_0.1.0_linux_64-bit.tar.gz"
-    sha256 "605ad5b9386def0f8fbad4f7c45068d4efda8e93118ac04fe08defdc7cd436c9"
+    sha256 "808c92c46cea1921090d545676ed7218dc2ff6e1d7e4756bbf0990329f42ce75"
   end
 
   def install
-    bin.install "meretingp"
+    bin.install "meteringp"
   end
 
   test do
