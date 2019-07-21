@@ -2,14 +2,14 @@
 class Meteringp < Formula
   desc "Software for generating metering events."
   homepage "https://github.com/oleewere"
-  version "0.2.0"
+  version "0.3.0"
 
   if OS.mac?
-    url "https://github.com/oleewere/meteringp/releases/download/v0.2.0/meteringp_0.2.0_macOS_64-bit.tar.gz"
-    sha256 "f9bc053594b8800134d63c72f5ec43b38487eb06cb111d1eb85c0908dd05b2ac"
+    url "https://github.com/oleewere/meteringp/releases/download/v0.3.0/meteringp_0.3.0_macOS_64-bit.tar.gz"
+    sha256 "a8dde161fb2ba7a9a21a582f68304083ddbe851e44cbc5d7bff0f40be0134aaa"
   elsif OS.linux?
-    url "https://github.com/oleewere/meteringp/releases/download/v0.2.0/meteringp_0.2.0_linux_64-bit.tar.gz"
-    sha256 "36faa9ade1ff44c0be4349e605dfad4ede8a4d60c29618839622b2b300d64e16"
+    url "https://github.com/oleewere/meteringp/releases/download/v0.3.0/meteringp_0.3.0_linux_64-bit.tar.gz"
+    sha256 "aa0956d9cdad1c77d62f51f0b6c91a67d496534a7d3277bf5cc919f3de1d2f2f"
   end
 
   def install
