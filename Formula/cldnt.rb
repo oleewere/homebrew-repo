@@ -6,10 +6,10 @@ class Cldnt < Formula
 
   if OS.mac?
     url "https://github.com/oleewere/cldnt/releases/download/v0.1.0/cldnt_0.1.0_macOS_64-bit.tar.gz"
-    sha256 "8f0f611e1dcc6b6982947770ba2721b9f1517205520381f9b39f3074b2e83976"
+    sha256 "7daf31c9b64d4040ca1d174eea4aee83780082f4390a7b80a495d5c02e0fb7dd"
   elsif OS.linux?
     url "https://github.com/oleewere/cldnt/releases/download/v0.1.0/cldnt_0.1.0_linux_64-bit.tar.gz"
-    sha256 "6b6f85d621ffddca0c3a92026a8788eddef26ce6a6e7b560c2681f073b4c710d"
+    sha256 "dc876e3c5e3f7991b0ba29617f77cd6ad3bac361a193624ea4829fc425b885b7"
   end
 
   def install
