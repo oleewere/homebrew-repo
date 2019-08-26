@@ -2,14 +2,14 @@
 class Cldnt < Formula
   desc "Software for getting the closest airports."
   homepage "https://github.com/oleewere"
-  version "0.2.0"
+  version "0.3.0"
 
   if OS.mac?
-    url "https://github.com/oleewere/cldnt/releases/download/v0.2.0/cldnt_0.2.0_macOS_64-bit.tar.gz"
-    sha256 "a9d600c180444c4ecaaf9629ff7d5a990762f8953de296b48b46598c2122351e"
+    url "https://github.com/oleewere/cldnt/releases/download/v0.3.0/cldnt_0.3.0_macOS_64-bit.tar.gz"
+    sha256 "1db5c60ac65a146b701eca1fecc068c857ca29677aa56af74f23f6a47cf3654f"
   elsif OS.linux?
-    url "https://github.com/oleewere/cldnt/releases/download/v0.2.0/cldnt_0.2.0_linux_64-bit.tar.gz"
-    sha256 "cf6e68356de5df8fe9a22e4f767a1e2e02738026b59d8a45e06130060796bcf1"
+    url "https://github.com/oleewere/cldnt/releases/download/v0.3.0/cldnt_0.3.0_linux_64-bit.tar.gz"
+    sha256 "22c217879a08a371209e1275975774a2e5a702d9dd7fc4ab67e415b269daff45"
   end
 
   def install
